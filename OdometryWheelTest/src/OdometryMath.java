@@ -1,5 +1,4 @@
 import org.apache.commons.math3.linear.*;
-import org.opencv.core.Mat;
 
 import java.util.Arrays;
 
@@ -7,18 +6,15 @@ public class OdometryMath {
 
     //    final LinearOpMode opMode;
     final Vector3[] setup;
-    final double[] encoderPosition;
 //    final LUDecomposition luDecomposition;
 //    final DecompositionSolver decompositionSolver;
     public final Vector3 pos;
 //    final RealMatrix matrixA;
 //    final double[][] arrayA;
 
-    public OdometryMath(final Vector3 pos, final Vector3[] setup, final double[] encoderPosition) {
+    public OdometryMath(final Vector3 pos, final Vector3[] setup) {
         this.pos = pos;
         this.setup = setup;
-        this.encoderPosition = encoderPosition;
-
         final double alpha = pos.theta;
 
 //        arrayA = new double[][] {
@@ -63,11 +59,7 @@ public class OdometryMath {
         return solvedArray;
     }
 
-    public OdometryMath update(final double[] newEncoderCount) {
-        final double[] deltaCount = new double[3];
-        for (int i = 0; i < 3; i++) {
-            deltaCount[i] =  newEncoderCount[i] - encoderPosition[i];
-        }
+    public OdometryMath update(final double[] deltaCount) {
 
 
         final double[][] A = makeA(setup, pos.theta);
@@ -87,7 +79,7 @@ public class OdometryMath {
         final Vector3 newPos2 = new Vector3(x2[0], x2[1], x2[2]);
 
 
-        return new OdometryMath(Vector3.AddVector(newPos2, pos), setup, newEncoderCount);
-//        return new OdometryMath(Vector3.AddVector(newPos, pos), setup, newEncoderCount);
+        return new OdometryMath(Vector3.AddVector(newPos2, pos), setup);
+//        return new OdometryMath(Vector3.AddVector(newPos, pos), setup);
     }
 }

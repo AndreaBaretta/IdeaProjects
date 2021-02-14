@@ -1,8 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bf2b9fa-5e82-4b3f-8aa2-80a21ceb6c09" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="4bf2b9fa-5e82-4b3f-8aa2-80a21ceb6c09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/.idea/libraries/com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/.idea/libraries/org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/.idea/libraries/org_lwjgl_lwjgl_glfw_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/.idea/libraries/org_lwjgl_lwjgl_opengl_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/.idea/libraries/org_lwjgl_osgi_org_lwjgl_glfw_3_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/.idea/libraries/org_lwjgl_osgi_org_lwjgl_opengl_3_2_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/ControlSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/doc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ControlSystem/simulator.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GreatStuff/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GreatStuff/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GreatStuff/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GreatStuff/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GreatStuff/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GreatStuff/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GreatStuff/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GreatStuff/GreatStuff.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GreatStuff/src/com/company/IntegerNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GreatStuff/src/com/company/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting/KotlinTesting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting/src/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting2/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting2/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting2/src/linuxMain/kotlin/sample/META-INF/main.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting2/src/linuxMain/kotlin/sample/SampleLinux.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting2/src/linuxMain/kotlin/sample/SampleLinux.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting2/src/linuxMain/kotlin/sample/sample/SampleLinuxKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KotlinTesting2/src/linuxTest/kotlin/sample/SampleTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NelderMeadImageRecognition/ImageSearch$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NelderMeadImageRecognition/ImageSearch$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/NelderMeadImageRecognition/ImageSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OdometryWheelTest/out/production/OdometryWheelTest/AlexOdometry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OdometryWheelTest/src/AlexOdometry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TrajectoryTesting/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TrajectoryTesting/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TrajectoryTesting/src/main/java/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TrajectoryTesting/target/classes/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TrajectoryTesting/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TrajectoryTesting/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TrajectoryTesting/trajectory/src/main/java/quixilver8404/ftc/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TrajectoryTesting/trajectory/src/test/java/quixilver8404/ftc/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TrajectoryTesting/untitled104.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/UITest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/frequency_response.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/out/production/UITest/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/out/production/UITest/com/company/UI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/out/production/UITest/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/out/production/UITest/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/out/production/UITest/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/out/production/UITest/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/out/production/UITest/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/out/production/UITest/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/out/production/UITest/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/out/production/UITest/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/out/production/UITest/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/out/production/UITest/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/out/production/UITest/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/src/com/company/UI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UITest/src/com/company/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../foxtrot2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../foxtrot2/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../foxtrot2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../foxtrot2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../foxtrot2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../foxtrot2/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../foxtrot2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../foxtrot2/foxtrot2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../foxtrot2/src/org/quixilver8404/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testproject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testproject/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testproject/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testproject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testproject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testproject/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testproject/src/main/java/ftc8404/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testproject/src/test/java/ftc8404/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testproject/target/classes/ftc8404/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testproject/target/classes/ftc8404/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testproject/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testproject/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../testproject/testproject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConvolutionTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConvolutionTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConvolutionTest/ConvolutionTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConvolutionTest/ConvolutionTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConvolutionTest/out/production/ConvolutionTest/com/company/Convolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ConvolutionTest/out/production/ConvolutionTest/com/company/Convolution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConvolutionTest/out/production/ConvolutionTest/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConvolutionTest/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConvolutionTest/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NelderMeadImageRecognition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NelderMeadImageRecognition.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NelderMeadImageRecognition/Convolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NelderMeadImageRecognition/Convolution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NelderMeadImageRecognition/IterativeSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NelderMeadImageRecognition/IterativeSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NelderMeadImageRecognition/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NelderMeadImageRecognition/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NelderMeadImageRecognition/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NelderMeadImageRecognition/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NelderMeadImageRecognition/Main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NelderMeadImageRecognition/Main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NelderMeadImageRecognition/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NelderMeadImageRecognition/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OdometryWheelTest/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OdometryWheelTest/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OdometryWheelTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OdometryWheelTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OdometryWheelTest/out/production/OdometryWheelTest/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OdometryWheelTest/out/production/OdometryWheelTest/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OdometryWheelTest/out/production/OdometryWheelTest/OdometryMath.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OdometryWheelTest/out/production/OdometryWheelTest/OdometryMath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OdometryWheelTest/out/production/OdometryWheelTest/TestOdometry.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OdometryWheelTest/out/production/OdometryWheelTest/TestOdometry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OdometryWheelTest/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OdometryWheelTest/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OdometryWheelTest/src/OdometryMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OdometryWheelTest/src/OdometryMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OdometryWheelTest/src/TestOdometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OdometryWheelTest/src/TestOdometry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OdometryWheelTest/src/Vector3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OdometryWheelTest/src/Vector3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrajectoryTesting/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TrajectoryTesting/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrajectoryTesting/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TrajectoryTesting/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrajectoryTesting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TrajectoryTesting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrajectoryTesting/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GreatStuff/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,37 +165,34 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1QZtYCzuZrAfK5hPyde8H96TAtr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559591977616" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestSamplingCode" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../opencv/build/bin/opencv-341.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="NelderMeadImageRecognition" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=$PROJECT_DIR$/../../opencv/build/lib:$USER_HOME$/.local/share/lutris/runtime/lib64" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -64,6 +205,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -76,5 +218,47 @@
       <updated>1554334719034</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612506826834">
+      <screen x="0" y="31" width="1920" height="1017" />
+    </state>
+    <state x="418" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.1920.1017@0.31.1920.1017" timestamp="1612506826834" />
+    <state x="789" y="295" width="326" height="494" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1611025136019">
+      <screen x="0" y="31" width="1920" height="1017" />
+    </state>
+    <state x="789" y="295" width="326" height="494" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.31.1920.1017@0.31.1920.1017" timestamp="1611025136019" />
+    <state x="682" y="425" width="548" height="232" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1612506533361">
+      <screen x="0" y="31" width="1920" height="1017" />
+    </state>
+    <state x="682" y="425" width="548" height="232" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.31.1920.1017@0.31.1920.1017" timestamp="1612506533361" />
+    <state x="741" y="261" width="872" height="519" key="FileChooserDialogImpl" timestamp="1612492293564">
+      <screen x="0" y="31" width="1920" height="1017" />
+    </state>
+    <state x="741" y="261" width="872" height="519" key="FileChooserDialogImpl/0.31.1920.1017@0.31.1920.1017" timestamp="1612492293564" />
+    <state width="1868" height="300" key="GridCell.Tab.0.bottom" timestamp="1612506805109">
+      <screen x="0" y="31" width="1920" height="1017" />
+    </state>
+    <state width="1868" height="300" key="GridCell.Tab.0.bottom/0.31.1920.1017@0.31.1920.1017" timestamp="1612506805109" />
+    <state width="1868" height="300" key="GridCell.Tab.0.center" timestamp="1612506805108">
+      <screen x="0" y="31" width="1920" height="1017" />
+    </state>
+    <state width="1868" height="300" key="GridCell.Tab.0.center/0.31.1920.1017@0.31.1920.1017" timestamp="1612506805108" />
+    <state width="1868" height="300" key="GridCell.Tab.0.left" timestamp="1612506805108">
+      <screen x="0" y="31" width="1920" height="1017" />
+    </state>
+    <state width="1868" height="300" key="GridCell.Tab.0.left/0.31.1920.1017@0.31.1920.1017" timestamp="1612506805108" />
+    <state width="1868" height="300" key="GridCell.Tab.0.right" timestamp="1612506805109">
+      <screen x="0" y="31" width="1920" height="1017" />
+    </state>
+    <state width="1868" height="300" key="GridCell.Tab.0.right/0.31.1920.1017@0.31.1920.1017" timestamp="1612506805109" />
+    <state x="668" y="95" width="1052" height="848" key="SettingsEditor" timestamp="1612506523591">
+      <screen x="0" y="31" width="1920" height="1017" />
+    </state>
+    <state x="668" y="95" width="1052" height="848" key="SettingsEditor/0.31.1920.1017@0.31.1920.1017" timestamp="1612506523591" />
+    <state x="613" y="254" width="691" height="678" key="search.everywhere.popup" timestamp="1612506542153">
+      <screen x="0" y="31" width="1920" height="1017" />
+    </state>
+    <state x="613" y="254" width="691" height="678" key="search.everywhere.popup/0.31.1920.1017@0.31.1920.1017" timestamp="1612506542153" />
   </component>
 </project>

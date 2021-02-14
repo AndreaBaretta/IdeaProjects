@@ -14,9 +14,9 @@ public class TestOdometry {
 //                new Vector3(180, 45, Math.PI/2),
 //                new Vector3(-180, 45, Math.PI/3)
         setup = new Vector3[] {
-                new Vector3(0, 145, 0),
-                new Vector3(180, -45, -Math.PI/2),
-                new Vector3(-180, -45, Math.PI/2)
+                new Vector3(-53, 181, 0), //left
+                new Vector3(-53, -181, 0), //right
+                new Vector3(181, 23, Math.PI/2) //center
         };
 
         startEncoderPos = new double[] {0,0,0};
@@ -51,39 +51,50 @@ public class TestOdometry {
     }
 
     public void run() {
-        final double ITERATIONS = 1000;
-        RealVector encoders = new ArrayRealVector(new double[] {0,0,0});
-        final Vector3 change = new Vector3(2442/ITERATIONS,3144.4/ITERATIONS, Math.PI*2/ITERATIONS);
+        final double ITERATIONS = 113;
+//        RealVector encoders = new ArrayRealVector(new double[] {0,0,0});
+//        Vector3 change = new Vector3(10,0, 10);
+//        Vector3 newEncoder = change;
+        double[] change = new double[] {10, -10, -10};
+        double[] encoderCount = new double[] {0,0,0};
 
         Vector3 newPos = startPos;
-        Vector3 predictedPos = startPos;
-        OdometryMath odometryMath = new OdometryMath(startPos, setup, encoders.toArray());
+
+        OdometryMath odometryMath = new OdometryMath(startPos, setup);
 //        double[] simulatedEncoder = encoders;
 
         for (int i = 0; i < ITERATIONS; i++) {
-            newPos = Vector3.AddVector(newPos, change);
-            System.out.println("Position: " + newPos.toString());
-//            encoders = encoderChange(encoders, setup, change, Vector3.SubtractVector(newPos, change));
-            RealMatrix matrix = matrix(setup, newPos);
-            SingularValueDecomposition svdDecomp = new SingularValueDecomposition(matrix);
-            double conditionNum = svdDecomp.getConditionNumber();
-            System.out.println("Condition number: " + conditionNum);
-            System.out.println("Matrix:");
-            for (int j = 0; j<3; j++) System.out.println(Arrays.toString(matrix.getRow(j)));
-            RealVector encoderChange = dsOfDr(setup, change, newPos);
-            encoders = encoderChange.add(encoders);
+//            newPos = Vector3.AddVector(newPos, change);
+//            System.out.println("Position: " + newPos.toString());
+////            encoders = encoderChange(encoders, setup, change, Vector3.SubtractVector(newPos, change));
+//            RealMatrix matrix = matrix(setup, newPos);
+//            SingularValueDecomposition svdDecomp = new SingularValueDecomposition(matrix);
+//            double conditionNum = svdDecomp.getConditionNumber();
+//            System.out.println("Condition number: " + conditionNum);
+//            System.out.println("Matrix:");
+//            for (int j = 0; j<3; j++) System.out.println(Arrays.toString(matrix.getRow(j)));
+//            RealVector encoderChange = dsOfDr(setup, change, newPos);
+//            encoders = encoderChange.add(encoders);
+//
+//
+//            System.out.println("Encoders: " + Arrays.toString(encoders.toArray()));
+//
+////            for (int n = 0; n < 11; n++) {
+////                for (int j=0; j<3; j++) {
+////                    simulatedEncoder[j] += encoders[j] / 10;
+////                }
+////                System.out.println("Encoders: " + Arrays.toString(round(simulatedEncoder)));
+//            odometryMath = odometryMath.update(round(encoders.toArray()));
+//            newEncoder  = Vector3.AddVector(newEncoder, change);
 
 
-            System.out.println("Encoders: " + Arrays.toString(encoders.toArray()));
-
-//            for (int n = 0; n < 11; n++) {
-//                for (int j=0; j<3; j++) {
-//                    simulatedEncoder[j] += encoders[j] / 10;
-//                }
-//                System.out.println("Encoders: " + Arrays.toString(round(simulatedEncoder)));
-            odometryMath = odometryMath.update(round(encoders.toArray()));
-            predictedPos = odometryMath.pos;
-            System.out.println("Predicted: " + predictedPos);
+            encoderCount[0] += change[0];
+            encoderCount[1] += change[1];
+            encoderCount[2] += change[2];
+            System.out.println(Arrays.toString(encoderCount));
+            odometryMath = odometryMath.update(change);
+            Vector3 predictedPos = odometryMath.pos;
+            System.out.println("Predicted: " + predictedPos + "  Actual heading: " + Math.atan2(change[2], 181));
             System.out.println();
 //            }
         }

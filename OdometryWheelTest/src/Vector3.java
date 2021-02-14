@@ -23,7 +23,7 @@ public class Vector3 {
 
     public String toString() {return "[" + x + "," + y + "," + theta + "]";}
 
-    public double[] toArray() {return new double[] {x,y,theta}; }
+    public double[] toArray() { return new double[] {x,y,theta}; }
 
-    public ArrayRealVector toRealVector() {return new ArrayRealVector(toArray()); }
+    public ArrayRealVector toRealVector() { return new ArrayRealVector(toArray()); }
 }

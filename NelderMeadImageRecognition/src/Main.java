@@ -26,6 +26,8 @@ public class Main {
 
     public static void main(String[] args) {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+//        System.loadLibrary("/home/andrea/git/opencv/build/bin/opencv-341.jar");
+
         System.out.println("Hello World!");
 
         final MatOfDouble dist = new MatOfDouble();
